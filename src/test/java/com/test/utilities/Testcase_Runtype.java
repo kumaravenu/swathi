@@ -12,7 +12,7 @@ public class Testcase_Runtype {
 	FileInputStream f;
 	XSSFWorkbook w;
 	XSSFSheet s;
-	String fileName = "C:\\Vikash\\Testdata_1.xlsx";
+	String fileName = "C:\\\\Users\\\\Snath\\\\TestData.xlsx";
 	String run;
 	
 	public String get_Testcase_Run(String Testcasename) throws IOException
@@ -20,7 +20,7 @@ public class Testcase_Runtype {
 		f= new FileInputStream(fileName);
 		
 		w = new XSSFWorkbook(f);
-		s= w.getSheet("Testcases");
+		s= w.getSheet("Names");
 		int r=s.getLastRowNum();
 		
 		System.out.println("my last row number in testcases " +r);

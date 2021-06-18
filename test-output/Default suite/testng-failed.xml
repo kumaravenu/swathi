@@ -5,7 +5,8 @@
     <classes>
       <class name="TestCases.copy.Readingdata">
         <methods>
-          <include name="readdata"/>
+          <include name="withinUSA"/>
+          <include name="Abroad"/>
         </methods>
       </class> <!-- TestCases.copy.Readingdata -->
     </classes>

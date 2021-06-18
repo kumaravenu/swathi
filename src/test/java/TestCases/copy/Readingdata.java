@@ -23,14 +23,14 @@ import org.testng.annotations.Test;
 public class Readingdata  {
 	
 	
-@Test(dataProvider="data")
+@Test(dataProvider="data", priority = 1)
 public void withinUSA(HashMap<String,String> H)
 {
 	System.out.println("Hi tis is my first testcase");
 	System.out.println(H.get("From") + " " + H.get("To") );
 }
 
-@Test(dataProvider="data")
+@Test(dataProvider="data", priority = 2)
 public void Abroad(HashMap<String,String> H)
 {
 	System.out.println("Hi tis is my second testcase");
