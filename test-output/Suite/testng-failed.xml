@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="Test(failed)">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TestCases.copy.Readingdata">
+      <class name="TestCases.copy.test_1">
         <methods>
-          <include name="data1"/>
-          <include name="data"/>
+          <include name="invoke1"/>
         </methods>
-      </class> <!-- TestCases.copy.Readingdata -->
+      </class> <!-- TestCases.copy.test_1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

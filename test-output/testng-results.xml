@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T09:39:34 IST" name="Suite" finished-at="2021-06-08T09:39:34 IST" duration-ms="618">
+  <suite started-at="2021-06-23T09:15:21 IST" name="Default suite" finished-at="2021-06-23T09:15:22 IST" duration-ms="680">
     <groups>
     </groups>
-    <test started-at="2021-06-08T09:39:34 IST" name="Test" finished-at="2021-06-08T09:39:34 IST" duration-ms="618">
-      <class name="TestCases.copy.Readingdata">
-        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="Abroad" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="5" status="PASS">
+    <test started-at="2021-06-23T09:15:21 IST" name="Default test" finished-at="2021-06-23T09:15:22 IST" duration-ms="680">
+      <class name="TestCases.Readingdata">
+        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="Abroad" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Abroad -->
-        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="withinUSA" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{From=San Diego, To=New York}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- withinUSA -->
-        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="withinUSA" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{From=San Diego, To=New York}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- withinUSA -->
-        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="Abroad" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="1" status="PASS">
+        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="Abroad" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Abroad -->
-        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="Abroad" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="1" status="PASS">
+        <test-method signature="Abroad(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="Abroad" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,18 +40,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Abroad -->
-        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.copy.Readingdata@58695725]" started-at="2021-06-08T09:39:34 IST" name="withinUSA" data-provider="data" finished-at="2021-06-08T09:39:34 IST" duration-ms="2" status="PASS">
+        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="withinUSA" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{From=San Diego, To=New York}]]>
+                <![CDATA[{From=San Diego, To=New}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withinUSA -->
-      </class> <!-- TestCases.copy.Readingdata -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="withinUSA" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{From=San Diego, To=New}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withinUSA -->
+        <test-method signature="withinUSA(java.util.HashMap)[pri:0, instance:TestCases.Readingdata@618425b5]" started-at="2021-06-23T09:15:22 IST" name="withinUSA" data-provider="data" finished-at="2021-06-23T09:15:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{From=San Diego, To=New}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withinUSA -->
+      </class> <!-- TestCases.Readingdata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
